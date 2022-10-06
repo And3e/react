@@ -1,2 +1,3 @@
-# React
-small projects made with React
+# 🌐 React 🌐
+
+🔖 Small projects made with React
