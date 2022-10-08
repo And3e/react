@@ -1,0 +1,66 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.btn {
+  padding-right: 10px;
+  padding-left: 10px;
+  font-size: 35pt;
+  height: 55px;
+  width: 60px;
+  border-radius: 10px;
+  vertical-align: middle;
+}
+
+.tasto {
+  transform: translateY(-2px);
+}
+
+.center {
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.sfondo {
+  background-color: white;
+  box-shadow: 5px 5px 5px #black;
+  padding: 35px 10px 35px 35px;
+  border-radius: 25px;
+  max-width: 400px;
+  display: block;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  justify-items: center;
+}
+
+.screen {
+  background-color: grey;
+  color: black;
+  border-radius: 25px;
+  margin: 10px 10px 20px 10px;
+  transform: translatex(-15px);
+  height: 80px;
+  overflow: hidden;
+  text-align: right;
+}
+
+#centro {
+  position: absolute;
+  top: 15.5px;
+  right: 20px;
+  font-size: 23.5pt;
+}
+
+.main {
+  display: grid;
+  row-gap: 10px;
+  align-self: center;
+}
+
+@media screen {
+  .main {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
